@@ -26,7 +26,7 @@ export default class PathfindingVisualizer extends Component {
         console.log(grid)
         return (
             <div> 
-                Welcome to Path Finding Visualizer!
+                Ta Le Kien
                 {grid.map((row, rowIndex) => {
                     return <div>
                         {row.map((node, nodeIndex) => <Node></Node>)}
